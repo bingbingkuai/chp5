@@ -14,7 +14,7 @@ public class Calculator {
 	/**
         * Constant representing the number 3.
         */
-        final static int umlNUMBER1 = 3;
+        final static int UML_NUMBER_1 = 3;
 
 	/**
         * Calculates the sum of two integers and caches the result.
