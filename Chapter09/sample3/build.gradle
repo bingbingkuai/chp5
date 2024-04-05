@@ -50,10 +50,6 @@ checkstyle {
 task acceptanceTest(type: Test) {
 	include '**/acceptance/**'
 	systemProperties System.getProperties()
-	jacoco {
-    		enabled = true
-    		destinationFile = file("$buildDir/jacoco/acceptanceTest.exec")
-	}
 }
 
 task smokeTest(type: Test) {
