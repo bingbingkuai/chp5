@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: calculator
-        image: bingkuai8/hello-kaniko:1.0
+        image: leszko/calculator:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
